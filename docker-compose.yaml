@@ -4,8 +4,7 @@ services:
     environment:
       POSTGRES_PASSWORD: password
       POSTGRES_USER: postgres
-      POSTGRES_DB: student
-    ports: 
+    ports:
     - "5432:5432"
     volumes:
     - ./local_data:/var/lib/postgresql/data
